@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Glossary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--
+ 8 hrs html & 8 hrs CSS
+1. Create glossary structure 
+2. create glossary header
+3. glossary list  * defination and defination description 
+4. search box 
+5. search dropdown 
+
+
+-->
+
+    <div id="errorDIV" ></div>
+
+    <div class="glossary-wrapper">
+        <div class="glossary-header">
+            <div class="glossary-title">
+                GLOSSARY
+            </div>
+            <div class="glossary-search">
+                <input type="text" id="inputGlossarySearch" />
+                <ul class="glossary-search-result" id="glossarySearchResults">
+                </ul>
+            </div>
+        </div>
+        <ul class="glossary-alphbates-strip" id="glossaryAlphbatesStrip"></ul>
+
+        <div class="glossary-container">
+
+            <div class="glossary-list" id="glossaryList">
+                Loading ...
+            </div>
+
+            <div class="glossary-explanation">
+                Loading ...
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
